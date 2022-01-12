@@ -1,4 +1,7 @@
-const getDadJoke = () => {const randomNumber = Math.floor(Math.random()*10); switch (randomNumber) {
+const getDadJoke = () => {
+    const randomNumber = Math.floor(Math.random()*10); 
+    switch (randomNumber) 
+    {
     case 0 : return 'I\'m afraid for the calendar. Its days are numbered.';
     case 1 : return 'I thought the dryer was shrinking my clothes. Turns out it was the refrigerator all along.';
     case 2 : return 'Dear Math, grow up and solve your own problems.';
